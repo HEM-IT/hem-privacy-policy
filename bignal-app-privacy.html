@@ -32,8 +32,8 @@
   <!-- 한국어 섹션 -->
   <div id="ko">
     <h1>개인정보처리방침</h1>
-    <p><strong>시행일:</strong> 2026년 01월 06일</p>
-    <p><strong>운영사:</strong> HEM Pharma Inc. (건강 시그널)</p>
+    <p><strong>시행일:</strong> 2026년 07월 07일</p>
+    <p><strong>운영사:</strong> HEM PHARMA Inc. (건강 시그널)</p>
 
     <p>건강 시그널은 이용자의 개인정보를 소중히 여기며, 「개인정보 보호법」 등 관계 법령을 준수하여 다음과 같이 처리합니다.</p>
 
@@ -54,22 +54,41 @@
     <ul>
       <li><strong>기기 정보:</strong> 단말기 모델, OS 버전, 앱 버전, 언어 설정</li>
       <li><strong>로그 정보:</strong> 앱 이용 기록, IP 주소, 크래시 로그</li>
-      <li><strong>건강 데이터:</strong> Apple HealthKit 또는 Android Health Connect를 통해 수집되는 걸음 수, 수면, 심박수 등 건강 지표 (이용자 동의 후 수집)</li>
+      <li><strong>건강 데이터:</strong> 이용자의 동의 하에 Apple Health 앱 또는 Google Health Connect를 통해 연동되는 건강 데이터</li>
       <li><strong>측정 데이터:</strong> Bignal BLE 기기를 통해 수집되는 가스 측정 데이터</li>
+    </ul>
+
+    <h3>1.3 Apple Health 앱 및 Google Health Connect를 통해 수집하는 건강 데이터</h3>
+    <p>
+      건강 시그널은 이용자가 명시적으로 동의한 경우에 한하여 Apple Health 앱 또는 Google Health Connect에서 건강 데이터를 읽기 전용으로 수집할 수 있습니다.
+      이용자는 각 플랫폼의 권한 설정 화면에서 항목별로 접근 권한을 허용하거나 거부할 수 있습니다.
+    </p>
+    <ul>
+      <li><strong>걸음 수:</strong> 일일 활동량 확인 및 칼로리 밸런스의 활동 요약 제공</li>
+      <li><strong>활동 칼로리:</strong> 운동 및 일상 활동으로 소모한 칼로리 확인, 섭취 칼로리와의 비교</li>
+      <li><strong>이동 거리:</strong> 걷기 및 이동 거리 확인, 활동 요약 제공</li>
+      <li><strong>심박수:</strong> 심박 요약, 심박 추이, 수면 중 안정 심박 참고 정보 제공</li>
+      <li><strong>혈중 산소포화도:</strong> 수면 상세 화면에서 수면 중 산소포화도 참고 정보 제공</li>
+      <li><strong>수면 데이터:</strong> 수면 시간, 수면 단계, 수면 효율, 수면 타임라인 분석</li>
+      <li><strong>체중:</strong> 체중 추이 관리 및 AI 건강 상담 시 건강 맥락 정보 제공</li>
     </ul>
 
     <h2>2. 정보의 이용 목적</h2>
     <ul>
       <li>서비스 제공 및 운영</li>
       <li>본인 확인 및 회원 인증</li>
+      <li>BiGNAL 기기 측정 결과 제공</li>
+      <li>라이프케어 기능 제공</li>
+      <li>수면, 심박, 활동, 칼로리 밸런스, 체중 리포트 제공</li>
       <li>건강 리포트 생성 및 개인 맞춤형 건강 정보 제공</li>
+      <li>AI 건강 상담 제공 시 사용자의 건강 맥락 참고</li>
       <li>푸시 알림을 통한 측정 결과 및 중요 안내 전달</li>
-      <li>앱 개선 및 오류 수정</li>
+      <li>앱 개선, 오류 수정 및 서비스 품질 개선</li>
       <li>고객 문의 대응</li>
     </ul>
 
-    <h2>3. 제3자 제공 및 SDK 이용</h2>
-    <p>본 앱은 서비스 향상을 위해 아래 제3자 서비스를 이용합니다. 각 서비스는 해당 사의 개인정보처리방침에 따라 데이터를 처리합니다.</p>
+    <h2>3. 건강 데이터 연동 및 제3자 서비스 이용</h2>
+    <p>본 앱은 서비스 제공 및 향상을 위해 아래 제3자 서비스를 이용합니다. 각 서비스는 해당 사의 개인정보처리방침에 따라 데이터를 처리할 수 있습니다.</p>
     <ul>
       <li><strong>Google Firebase (Analytics, Crashlytics, Cloud Messaging)</strong><br />
         이용 목적: 이용 현황 분석, 크래시 정보 수집, 푸시 알림 발송
@@ -80,21 +99,44 @@
       <li><strong>Sign in with Apple</strong><br />
         이용 목적: 계정 인증 및 로그인
       </li>
-      <li><strong>Apple HealthKit / Android Health Connect</strong><br />
-        이용 목적: 건강 데이터 동기화 (걸음 수, 수면, 심박수 등). 해당 데이터는 이용자 동의 없이 제3자와 공유되거나 광고 목적으로 사용되지 않습니다.
+      <li><strong>Apple Health 앱 / Apple HealthKit</strong><br />
+        이용 목적: 이용자가 동의한 건강 데이터 연동, 라이프케어 리포트 제공, 건강 데이터 기반 개인 맞춤형 정보 제공
+      </li>
+      <li><strong>Google Health Connect</strong><br />
+        이용 목적: 이용자가 동의한 건강 데이터 연동, 라이프케어 리포트 제공, 건강 데이터 기반 개인 맞춤형 정보 제공
       </li>
     </ul>
+
+    <h3>3.1 건강 데이터의 제한적 사용</h3>
+    <p>
+      Apple Health 앱 및 Google Health Connect를 통해 수집된 건강 데이터는 이용자가 동의한 서비스 기능 제공을 위해서만 사용됩니다.
+      해당 데이터는 광고, 마케팅, 데이터 판매 목적으로 사용되지 않으며, 이용자의 동의 없이 제3자에게 제공되지 않습니다.
+    </p>
+    <p>
+      단, 서비스 운영에 필요한 클라우드 인프라, 데이터 보관, 보안 관리 등 업무 위탁이 발생하는 경우에는 관련 법령 및 본 개인정보처리방침의 범위 내에서 안전하게 관리합니다.
+    </p>
 
     <h2>4. 접근 권한 안내</h2>
     <ul>
       <li><strong>블루투스(BLE):</strong> Bignal 기기와의 무선 연결 및 데이터 수신을 위해 필요합니다.</li>
-      <li><strong>건강 정보 (HealthKit / Health Connect):</strong> 건강 지표 동기화를 위해 필요합니다. 이용자가 명시적으로 동의한 항목만 수집합니다.</li>
+      <li><strong>건강 정보 (Apple Health 앱 / Health Connect):</strong> 걸음 수, 활동 칼로리, 이동 거리, 심박수, 혈중 산소포화도, 수면, 체중 등 건강 지표 동기화를 위해 필요합니다. 이용자가 명시적으로 동의한 항목만 수집합니다.</li>
       <li><strong>알림:</strong> 측정 결과 및 건강 알림 전송을 위해 필요합니다.</li>
       <li><strong>카메라 및 사진 라이브러리:</strong> 프로필 사진 설정을 위해 필요합니다. 촬영된 이미지는 해당 목적 외에 사용되지 않습니다.</li>
     </ul>
 
     <h2>5. 데이터 보관 및 삭제</h2>
-    <p>개인정보는 서비스 제공에 필요한 기간 또는 법령에서 요구하는 기간 동안 보관됩니다. 이용자는 언제든지 계정 삭제를 요청할 수 있으며, 삭제 시 관련 개인정보도 함께 삭제됩니다.</p>
+    <p>
+      개인정보는 서비스 제공에 필요한 기간 또는 법령에서 요구하는 기간 동안 보관됩니다.
+      이용자는 언제든지 계정 삭제를 요청할 수 있으며, 삭제 시 관련 개인정보도 함께 삭제됩니다.
+    </p>
+    <p>
+      이용자가 Apple Health 앱 또는 Google Health Connect 권한을 철회하는 경우, 건강 시그널은 해당 권한 철회 이후 신규 건강 데이터 수집을 중단합니다.
+      이미 저장된 건강 데이터는 회원 탈퇴 시 또는 이용자의 삭제 요청 시 관련 법령 및 회사의 개인정보처리방침에 따라 삭제됩니다.
+      단, 관계 법령에 따라 보관이 필요한 정보는 해당 법령에서 정한 기간 동안 보관될 수 있습니다.
+    </p>
+    <p>
+      이용자는 앱 내 건강 데이터 연동 화면, Apple Health 앱 설정 또는 Google Health Connect 설정에서 언제든지 건강 데이터 접근 권한을 변경하거나 철회할 수 있습니다.
+    </p>
 
     <h2>6. 문의</h2>
     <p>개인정보처리방침에 관한 문의 사항은 아래로 연락해 주세요.</p>
@@ -106,7 +148,7 @@
   <!-- English Section -->
   <div id="en">
     <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> January 06, 2026</p>
+    <p><strong>Effective Date:</strong> July 07, 2026</p>
     <p><strong>Operated by:</strong> HEM Pharma Inc. (건강 시그널 / Health Signal)</p>
 
     <p>Health Signal values the protection of your personal information. This policy describes how we collect, use, and protect your data.</p>
@@ -118,47 +160,89 @@
       <li><strong>Account Information:</strong>
         <ul>
           <li>Kakao Login: nickname, profile photo, email address</li>
-          <li>Sign in with Apple: Apple ID, email address (if you choose to share it)</li>
+          <li>Sign in with Apple: Apple ID, email address, if you choose to share it</li>
         </ul>
       </li>
-      <li><strong>Profile Information:</strong> name, gender, date of birth (entered during sign-up)</li>
+      <li><strong>Profile Information:</strong> name, gender, date of birth, entered during sign-up</li>
     </ul>
 
     <h3>1.2 Automatically Collected Information</h3>
     <ul>
       <li><strong>Device Information:</strong> device model, OS version, app version, language settings</li>
       <li><strong>Log Information:</strong> usage logs, IP address, crash reports</li>
-      <li><strong>Health Data:</strong> steps, sleep, heart rate, and other health metrics via Apple HealthKit or Android Health Connect (collected only with your consent)</li>
-      <li><strong>Measurement Data:</strong> gas measurement data collected via the Bignal BLE device</li>
+      <li><strong>Health Data:</strong> health data synced through Apple Health or Google Health Connect with your permission</li>
+      <li><strong>Measurement Data:</strong> gas measurement data collected through the Bignal BLE device</li>
+    </ul>
+
+    <h3>1.3 Health Data Collected Through Apple Health and Google Health Connect</h3>
+    <p>
+      Health Signal may read health data from Apple Health or Google Health Connect only with your explicit permission.
+      You can allow or deny access to each data type through the permission settings provided by each platform.
+    </p>
+    <ul>
+      <li><strong>Steps:</strong> used to show daily activity level and activity summary in calorie balance</li>
+      <li><strong>Active Calories Burned:</strong> used to show calories burned through exercise and daily activity, and to compare burned calories with food intake</li>
+      <li><strong>Distance:</strong> used to show walking, running, and daily movement distance in activity summaries</li>
+      <li><strong>Heart Rate:</strong> used to provide heart rate summaries, heart rate trends, and resting heart rate context during sleep</li>
+      <li><strong>Oxygen Saturation:</strong> used as a supporting vital sign in the sleep detail screen</li>
+      <li><strong>Sleep Data:</strong> used to analyze sleep duration, sleep stages, sleep efficiency, and sleep timeline</li>
+      <li><strong>Weight:</strong> used to provide body weight trends and health context for AI health consultation</li>
     </ul>
 
     <h2>2. How We Use Your Information</h2>
     <ul>
       <li>Providing and operating the service</li>
       <li>Identity verification and user authentication</li>
+      <li>Providing BiGNAL device measurement results</li>
+      <li>Providing Life Care features</li>
+      <li>Providing sleep, heart rate, activity, calorie balance, and body weight reports</li>
       <li>Generating health reports and delivering personalized health insights</li>
+      <li>Providing health context for AI health consultation</li>
       <li>Sending push notifications for measurement results and important updates</li>
-      <li>App improvement and bug fixes</li>
+      <li>App improvement, bug fixes, and service quality improvement</li>
       <li>Responding to customer inquiries</li>
     </ul>
 
-    <h2>3. Third-Party Services and SDKs</h2>
+    <h2>3. Health Data Sync and Third-Party Services</h2>
+    <p>We use the following third-party services to provide and improve our service. Each service may process data according to its own privacy policy.</p>
     <ul>
-      <li><strong>Google Firebase (Analytics, Crashlytics, Cloud Messaging):</strong> Usage analytics, crash reporting, push notifications</li>
-      <li><strong>Kakao Login / Sign in with Apple:</strong> Account authentication and login</li>
-      <li><strong>Apple HealthKit / Android Health Connect:</strong> Health data sync. This data is never shared with third parties or used for advertising.</li>
+      <li><strong>Google Firebase Analytics, Crashlytics, and Cloud Messaging:</strong> usage analytics, crash reporting, and push notifications</li>
+      <li><strong>Kakao Login:</strong> account authentication and login</li>
+      <li><strong>Sign in with Apple:</strong> account authentication and login</li>
+      <li><strong>Apple Health / Apple HealthKit:</strong> syncing health data with your permission to provide Life Care reports and personalized health insights</li>
+      <li><strong>Google Health Connect:</strong> syncing health data with your permission to provide Life Care reports and personalized health insights</li>
     </ul>
+
+    <h3>3.1 Limited Use of Health Data</h3>
+    <p>
+      Health data collected through Apple Health or Google Health Connect is used only to provide the service features you have consented to use.
+      This data is not used for advertising, marketing, or data sale, and is not shared with third parties without your consent.
+    </p>
+    <p>
+      If service operation requires cloud infrastructure, data storage, security management, or similar service providers, such processing will be managed securely within the scope of applicable laws and this Privacy Policy.
+    </p>
 
     <h2>4. Permissions</h2>
     <ul>
-      <li><strong>Bluetooth (BLE):</strong> Required to connect and receive data from the Bignal device.</li>
-      <li><strong>Health Data:</strong> Required for syncing health metrics. Only items you explicitly permit are accessed.</li>
-      <li><strong>Notifications:</strong> Required to deliver measurement results and health alerts.</li>
-      <li><strong>Camera &amp; Photo Library:</strong> Required for setting a profile photo. Images are used solely for this purpose.</li>
+      <li><strong>Bluetooth BLE:</strong> required to connect to and receive data from the Bignal device.</li>
+      <li><strong>Health Data via Apple Health or Health Connect:</strong> required to sync health metrics such as steps, active calories burned, distance, heart rate, oxygen saturation, sleep, and weight. Only the data types you explicitly permit are accessed.</li>
+      <li><strong>Notifications:</strong> required to deliver measurement results and health alerts.</li>
+      <li><strong>Camera and Photo Library:</strong> required for setting a profile photo. Images are used solely for this purpose.</li>
     </ul>
 
     <h2>5. Data Retention and Deletion</h2>
-    <p>Your personal data is retained for as long as necessary to provide the service or as required by law. You may request account deletion at any time, upon which your personal data will be removed.</p>
+    <p>
+      Your personal data is retained for as long as necessary to provide the service or as required by law.
+      You may request account deletion at any time, upon which your personal data will be deleted.
+    </p>
+    <p>
+      If you revoke Apple Health or Google Health Connect permissions, Health Signal will stop collecting new health data through the revoked permissions.
+      Health data that has already been stored will be deleted when you delete your account or request deletion, in accordance with applicable laws and this Privacy Policy.
+      However, information that must be retained under applicable laws may be stored for the period required by such laws.
+    </p>
+    <p>
+      You can change or revoke health data access permissions at any time through the in-app health data sync screen, iOS Health settings, or Google Health Connect settings.
+    </p>
 
     <h2>6. Contact</h2>
     <p>For questions about this Privacy Policy, please contact us at:<br />
